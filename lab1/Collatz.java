@@ -16,7 +16,13 @@ public class Collatz {
 
     public static void main(String[] args) {
         int n = 5;
+        int y = 5;
         System.out.print(n + " ");
+        while (y >= 1){
+            System.out.println(n);
+            y = y - 1;
+
+        }
         while (n != 1) {
             n = nextNumber(n);
             System.out.print(n + " ");
