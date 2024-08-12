@@ -116,7 +116,6 @@ public class Model extends Observable {
 
         checkGameOver();
         if (changed) {
-
             setChanged();
         }
         return changed;
